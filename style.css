@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #232B4D;
+}
+
+.navigationbar {
+    width: 100%;
+    height: 13vh;
+    background-color: #494B72;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55%;
+    position: fixed;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.timexp {
+    text-decoration: none;
+    color: #232B4D;
+    font-size: 50px;
+}
+
+.esquerda {
+    display: flex;
+    gap: 10%;
+}
+
+.esqest {
+    color: #fff;
+    text-decoration: none;
+    background-color: #232B4D;
+    padding: 10px 30px 10px 30px;
+    border-radius: 36px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.esqest:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    margin-top: 20vh;
+    width: 93vw;
+    height: 210vh;
+    background-color: #494B72;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    gap: 3%;
+}
+
+.texto {
+    width: 60vw;
+    height: 51vh;
+    background-color: #232B4D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev {
+    color: #737373;
+    font-size: 800%;
+}
+
+.abafoto{
+    width: 25vw;
+    height: 25vw;
+    background-color: #232B4D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.circonfig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 12vw;
+    height: 24vh;
+    border-radius: 100%;
+    border: 7px solid #737373;
+    background-color: #494B72;
+}
+
+#textfoto {
+    text-align: center;
+    color: #232B4D;
+    background-color: #737373;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+
+div div .projetos h1 {
+    font-size: 100px;
+    color: #232B4D;
+    text-align: center;
+}
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 30px;
+}
+
+.element {
+    width: 43vw;
+    height: 60vh;
+    background-color: #232B4D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.projeto1 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    font-size: 15px;
+    color: #737373;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+#paisagemtext {
+    font-size: 50px;
+    color: #737373;
+}
+
+.paisagem1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#download {
+    text-decoration: none;
+    color: #737373;
+    padding: 10px 20px;
+    border: 2px solid #737373;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#download:hover {
+    transition: 0.5s;
+    opacity: 50%;
+    transform: scale(1.05);
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.leisfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.elemento {
+    width: 88vw;
+    height: 58vh;
+    border-radius: 20px;
+    background-color: #232B4D;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#glhf {
+    font-size: 300px;
+    color: #737373;
+}
+
+.leislink {
+    display: flex;
+    justify-content: center;
+    margin-top: 158px;
+    gap: 20px;
+}
+
+.link {
+    width: 70px;
+    height: 70px;
+    background-color: #737373;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.imagem {
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+    .navigationbar {
+        width: 100%;
+    }
+    .dev {
+        font-size: 700%;
+    }
+    .timexp {
+        font-size: 40px;
+    }
+    .esqest {
+        font-size: 15px;
+    }
+    .elemento {
+        height: 50vh;
+    }
+    #glhf {
+        font-size: 230px;
+    }
+    .link {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 35px;
+    }
+    .imagem {
+        width: 50px;
+        height: 50px;
+    }
+}
