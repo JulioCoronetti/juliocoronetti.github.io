@@ -1,0 +1,139 @@
+* {
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding-bottom: 60px;
+    background-color: #fff;
+    padding-top: 0px;
+}
+.navegacao {
+    background-color: #eb3c01;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    border-bottom: 3px solid #9e2d07;
+    color: white;
+    text-align: center;
+}
+#xd {
+    margin-top: 25px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+nav ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+ul li {
+    margin-right: 12px;
+}
+ul li a {
+    color: #fff;
+}
+#pct {
+    font-size: 50px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+.abacate {
+    color: #eb3c01;
+    padding-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+.sobre {
+    background-color: #eb3c01;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    width: 90%;
+    height: 1000px;
+    border-radius: 20px;
+}
+#image {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#para {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.wordt {
+    color: #00549c;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.word {
+    background-color: #00549c;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    width: 90%;
+    height: 800px;
+    border-radius: 20px;
+}
+#wordp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.excelt {
+    color: #02723a;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.excel {
+    background-color: #02723a;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    width: 90%;
+    height: 800px;
+    border-radius: 20px;
+}
+#excelp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.powert {
+    color: #f14521;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.power {
+    background-color: #f14521;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    width: 90%;
+    height: 800px;
+    border-radius: 20px;
+}
+#powerp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.direitos {
+    color: #eb3c01;
+    text-align: center;
+    border-top: 2px solid #eb3c01;
+}
